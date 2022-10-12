@@ -1,18 +1,55 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find a Project</title>
+    <!-- Google Font -->
+    <link
+      href='https://fonts.googleapis.com/css2?family=Ms+Madi&family=Quicksand&display=swap'
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="listaproject.css" />
+  </head>
 
-<html>
+  <p style="background-image: url('img_girl.jpg');"> <!-- REMEMBER TO ADD A BACKGROUND IMAGE TO THIS LATER-->
 
-    <head>Projects </head>
 
-    <body>
-        <div>
-            <h1> Volunteer for a Project </h1>
-        </div>
+  <body>
+    
+    <div class="wrapper">
+      <div id="search-container">
+        <input
+          type="search"
+          id="search-input"
+          placeholder="Find a project here..."
+        />
+        <button id="search">Find a Project</button>
+      </div>
+      
 
-        <div>
-            <h1> List a Project </h1>
-        </div>
-    </body>
+      <div id="buttons">
+        <button class="button-value" onclick="filterProduct('all')">All</button>
+        <button class="button-value" onclick="filterProduct('Topwear')">
+          Ocean Recovery 
+        </button>
+        <button class="button-value" onclick="filterProduct('Bottomwear')">
+          Recycling
+        </button>
+        <button class="button-value" onclick="filterProduct('Jacket')">
+          Skills-Based Volunteering
+        </button>
+        <button class="button-value" onclick="filterProduct('Watch')">
+          Remote Opportunities 
+        </button>
+      </div>
 
+      <div class="instructions"><em>Click on the listing to go to the website link!</em></div>
+
+
+      <div id="products"></div>
+    </div>
+    <!-- Script -->
+    <script src="listaproject.js"></script>
+  </body>
 </html>
-

@@ -301,8 +301,39 @@ color: #198f93;
     position: relative;
     font-family: 'Quicksand', sans-serif;
   }
+
+  .forest{
+    margin-top: 40px; 
+  }
+  
+
   
  
+
+
+
+/* Styling the volunteer section */
+
+body {
+    background-color: white; 
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.getinvolvedheader{
+    
+    background-color: white; 
+    margin-top: 5rem;
+    font-size: 30pt;
+    padding: 20px; 
+  }
+  
+  .get-involved-info{
+      background-color: #a6f2a3; 
+  }
+  
+  
 
   /* ways to get involved styling */
 
@@ -336,7 +367,6 @@ a {
 }
 
 .card {
-  font-family: 'Heebo';
   --bg-filter-opacity: 0.5;
   background-image: linear-gradient(rgba(0,0,0,var(--bg-filter-opacity)),rgba(0,0,0,var(--bg-filter-opacity))), var(--bg-img);
   height: 20em;
@@ -370,7 +400,6 @@ a {
 
 .card p {
   font-size: 0.75em;
-  font-family: 'Open Sans';
   margin-top: 0.5em;
   line-height: 2em;
 }
@@ -498,11 +527,3 @@ a {
   }
 }
 
-  
-
-/* Styling the volunteer page */
-
-.getinvolvedheader {
-  text-align: center;
-  font-family: 'Quicksand', sans-serif;
-}
